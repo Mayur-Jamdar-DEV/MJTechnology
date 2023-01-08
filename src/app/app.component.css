@@ -1,0 +1,47 @@
+.m-6 {
+    background-color: goldenrod;
+}
+
+.container-fluid {
+    margin-left: 20px;
+}
+
+.nav-item {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 999px) {
+    .navbar-toggler {
+        margin-left: auto;
+    }
+
+    .navbar-nav {
+        color: blue;
+    }
+}
+
+.footer {
+
+    position: fixed;
+    width: 100%;
+    padding: 20px 15%;
+    background: rgb(203, 199, 199);
+    color: #393030;
+    display: flex;
+}
+
+.bi {
+    margin-left: 45%;
+    display: flex-end;
+}
+
+.someclass {
+    margin-right: 30px;
+    height: 30px;
+    width: 30px;
+}
