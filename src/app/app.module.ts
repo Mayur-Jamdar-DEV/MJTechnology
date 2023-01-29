@@ -13,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { BootstrapIconsModule } from 'ng-bootstrap-icons';
 import { allIcons } from 'ng-bootstrap-icons/icons';
 import { PricingComponent } from './pricing/pricing.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { PricingComponent } from './pricing/pricing.component';
       apiKey: 'AIzaSyD0873GZTFY695aMvZh3gvqg6GoWN2hCls'
     }),
     BrowserAnimationsModule,
-    BootstrapIconsModule.pick(allIcons)
+    BootstrapIconsModule.pick(allIcons),
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   exports: [
     BootstrapIconsModule
