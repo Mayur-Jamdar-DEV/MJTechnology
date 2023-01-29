@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "signupUsers": [
+    {
+      "name": "Mayur Balaso Jamdar",
+      "email": "jamdarmayur5152@gmail.com",
+      "phoneNumber": "+919975661465",
+      "message": "Hello",
+      "id": 1
+    }
+  ]
+}
